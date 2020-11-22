@@ -1,0 +1,51 @@
+{
+  "name": "task05_game",
+  "version": "1.0.0",
+  "description": "izometric game",
+  "main": "index.js",
+  "scripts": {
+    "test": "game",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch",
+    "start": "webpack-dev-server --mode development --open",
+    "devserver": "live-server --browser=Chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VODOROD1/Task05_Game.git"
+  },
+  "keywords": [
+    "game",
+    "isometric",
+    "knight",
+    "monsters",
+    "canvas"
+  ],
+  "author": "Beliakov Mikhail",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.5.2",
+    "csv-loader": "^3.0.3",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.2.0",
+    "papaparse": "^5.2.0",
+    "style-loader": "^1.1.4",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "xml-loader": "^1.2.1"
+  },
+  "dependencies": {
+    "jquery": "^3.5.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "set-default-browser": "^1.1.1",
+    "webpack-browser-plugin": "^1.0.20"
+  },
+  "bugs": {
+    "url": "https://github.com/VODOROD1/Task05_Game/issues"
+  },
+  "homepage": "https://github.com/VODOROD1/Task05_Game#readme"
+}
